@@ -1,9 +1,11 @@
 package com.carte.tresor.domain;
 
 public enum Orientation {
-    NORD,
-    SUD,
-    EST,
-    OUEST
+    N("NORD"),
+    S("SUD"),
+    E("EST"),
+    O("OUEST");
 
+    Orientation(String orientation) {
+    }
 }
